@@ -1,0 +1,4 @@
+#!/bin/bash
+echo '0   string  SCHOOL  School data' > school.mgc
+file -m school.mgc thisisaschoolfile thisisatextfile
+
