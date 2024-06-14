@@ -1,2 +1,5 @@
 #!/bin/bash
-chmod 755 hello && chmod o-w hello
+(
+  chmod 755 hello
+  chmod o-w hello
+)
