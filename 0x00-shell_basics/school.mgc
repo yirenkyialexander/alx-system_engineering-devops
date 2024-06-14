@@ -1,4 +1,5 @@
 #!/bin/bash
-echo '0   string  SCHOOL  School data' > school.mgc
+echo '0 string SCHOOL School data' > school.mgc
+echo -n "SCHOOL" > thisisaschoolfile
+echo "This is a text file." > thisisatextfile
 file -m school.mgc thisisaschoolfile thisisatextfile
-
