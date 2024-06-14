@@ -1,5 +1,3 @@
 #!/bin/bash
-echo '0 string SCHOOL School data' > school.mgc
-echo -n "SCHOOL" > thisisaschoolfile
-echo "This is a text file." > thisisatextfile
-file -m school.mgc thisisaschoolfile thisisatextfile
+!mime:application/x-school
+>0  string  4  SCHOOL
