@@ -1,5 +1,2 @@
 #!/bin/bash
-(
-  chmod 755 hello
-  chmod o-w hello
-)
+chmod ugo+x hello
